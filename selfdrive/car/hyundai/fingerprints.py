@@ -1143,10 +1143,12 @@ FW_VERSIONS = {
   CAR.KIA_K5_HEV_2020: {
     (Ecu.fwdRadar, 0x7d0, None): [
       b'\xf1\x00DLhe SCC FHCUP      1.00 1.02 99110-L7000         ',
+      b'\xf1\x00DLhe SCC FHCUP      1.00 1.03 99110-L7000         ',
     ],
     (Ecu.eps, 0x7d4, None): [
       b'\xf1\x00DL3 MDPS C 1.00 1.02 56310-L7000 4DLHC102',
       b'\xf1\x00DL3 MDPS C 1.00 1.02 56310-L7220 4DLHC102',
+      b'\xf1\x00DL3 MDPS C 1.00 1.03 56310-L7220 4DLHC103',
     ],
     (Ecu.fwdCamera, 0x7c4, None): [
       b'\xf1\x00DL3HMFC  AT KOR LHD 1.00 1.02 99210-L2000 200309',
